@@ -1,0 +1,57 @@
+.width-fit{
+    border-radius: 50%;
+}
+.tengah{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.one-fourth{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-6{
+    width: 100%;
+    
+}
+
+.g{
+    height: max-content;
+}
+
+.container-lg{
+    width: 100%;
+}
+
+.col-4{
+    width: 50%;
+}
+
+.g1{
+    width: 100%;
+}
+
+.col-3{
+    padding: 0;
+    width: 50%;
+}
+
+.men-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 800px) {
+    .Layout-sidebar{
+        display: none;
+    }
+
+    .tengah{
+        flex-wrap: wrap;
+    }
+}

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/@primer/css@^20.2.4/dist/primer.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Portofolio</title>
+</head>
+<body>
+    <div data-color-mode="dark" data-dark-theme="dark" class="p-3">
+        <div class="Header">
+            <!-- Text item -->
+            <div class="Header-item">
+              Portofolio
+            </div>
+          
+            <!-- Form item  -->
+            <div class="Header-item">
+              <input class="form-control Header-input" type="text"/>
+            </div>
+          
+            <!-- Image item  -->
+            <div class="Header-item">
+              <img class="avatar" height="20" alt="@octocat" src="https://github.com/octocat.png" width="20">
+            </div>
+          </div>
+          <div class="Layout">
+            <div class="Layout-main border">
+                <nav class="UnderlineNav" aria-label="Foo bar">
+                    <div class="UnderlineNav-body">
+                      <a class="UnderlineNav-item" href="index.html">Home</a>
+                      <a class="UnderlineNav-item" href="contact.html"  aria-current="page">Contact</a>
+                      <a class="UnderlineNav-item" href="about.html">About</a>
+                      <a class="UnderlineNav-item" href="#url">Service</a>
+                    </div>
+                    <div class="UnderlineNav-actions">
+                      <a class="btn btn-sm">Button</a>
+                    </div>
+                  </nav>
+                  <form class="ml-5 g">
+                    <div class="form-group">
+                      <div class="form-group-header">
+                        <label for="example-text">Nama</label>
+                      </div>
+                      <div class="form-group-body">
+                        <input class="form-control" type="text" id="example-text" />
+                      </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="form-group-header">
+                          <label for="example-text">Address</label>
+                        </div>
+                        <div class="form-group-body">
+                          <input class="form-control" type="text" id="example-text" />
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <div class="form-group-header">
+                          <label for="example-text">Email</label>
+                        </div>
+                        <div class="form-group-body">
+                          <input class="form-control" type="text" id="example-text" />
+                        </div>
+                      </div>
+                  
+                    <div class="form-group">
+                      <div class="form-group-header">
+                        <label for="example-select">Job</label>
+                      </div>
+                      <div class="form-group-body">
+                        <select class="form-select" id="example-select">
+                          <option>Pilih</option>
+                          <option>Student</option>
+                          <option>Engineer</option>
+                          <option>Teacher</option>
+                        </select>
+                      </div>
+                    </div>
+                  
+                    <div class="form-group">
+                      <div class="form-group-header">
+                        <label for="example-textarea">Pesan</label>
+                      </div>
+                      <div class="form-group-body">
+                        <textarea class="form-control" id="example-textarea"></textarea>
+                      </div>
+                    </div>
+                    <button class="btn btn-primary mb-5" type="button">Submit</button>
+                  </form>
+            </div>
+          
+            <div class="Layout-sidebar">
+              <div class="one-fourth column mb-2">
+                  <img class="width-fit color-bg-subtle" src="/images/foto1.jpg" alt="width fitted octocat" />
+                </div>
+                <nav class="menu" aria-labelledby="menu-heading">
+                  <span class="menu-heading" id="menu-heading">Kopriyanto</span>
+                  <div >
+                    <details class="dropdown details-reset details-overlay">
+                      <summary class="men-1 btn btn-primary" aria-haspopup="true">
+                        Social Media
+                        <div class="dropdown-caret"></div>
+                      </summary>
+                  
+                      <ul class="dropdown-menu dropdown-menu-se">
+                        <li><a class="dropdown-item" href="#url">Instagram</a></li>
+                        <li><a class="dropdown-item" href="#url">Twitter</a></li>
+                        <li><a class="dropdown-item" href="#url">Facebook</a></li>
+                      </ul>
+                    </details>
+                  </div>
+                  <a class="menu-item" href="#url">Profile</a>
+                  <a class="menu-item" href="#url">Emails</a>
+                  <a class="menu-item" href="#url">Notifications</a>
+                </nav>
+          </div>
+          </div>
+    </div>
+</body>
+</html>
