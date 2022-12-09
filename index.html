@@ -1,70 +1,121 @@
-  <!DOCTYPE html>
-  <html lang="en">
-  <head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../static/css/styles.css">
-    <!-- <link rel="stylesheet" href="../css/style1.css"> -->
-
-    <meta name="viewport" content="width=device-width", initial-scale="1.0">
-
-    <!-- Start Title -->
-    <title>Skin Desease Detection</title>
-    <!-- End Title -->
-  </head>
-  <body>
-      <!-- Start Navbar -->
-      <div class="navbar">
-        <!-- Start Logo -->
-        <div class="logo-sec">
-            <!-- <h1><a href="{{url_for('home')}}" class="logos">MoonSkin</a></h1> -->
-            <h1><a href="index.html" class="logos">MoonSkin</a></h1>
-        </div>
-        <!-- End Logo -->
-        <!-- Start Menu -->
-        <nav>
-            <div class="menu-bar">
-                <ul class="menu-item">
-                    <!-- <li><a href="{{url_for('home')}}">Home</a></li> -->
-                    <li><a href="#">Home</a></li>
-                    <!-- <li><a href="{{url_for('tutorial')}}" class="sub-item">Tutorial</a></li> -->
-                    <li><a href="tutorial.html" class="sub-item">Tutorial</a></li>
-                    <!-- <li><a href="{{url_for('about')}}" class="sub-item">About</a></li> -->
-                    <li><a href="about.html" class="sub-item">About</a></li>
-                </ul>
+    <link href="https://unpkg.com/@primer/css@^20.2.4/dist/primer.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>Portofolio</title>
+</head>
+<body>
+    <div data-color-mode="dark" data-dark-theme="dark" class="p-3">
+        <div class="Header">
+            <!-- Text item -->
+            <div class="Header-item">
+              Portofolio
             </div>
-        </nav>
-        <!-- End Menu -->
+          
+            <!-- Form item  -->
+            <div class="Header-item">
+              <input class="form-control Header-input" type="text"/>
+            </div>
+          
+            <!-- Image item  -->
+            <div class="Header-item">
+              <img class="avatar" height="20" alt="@octocat" src="https://github.com/octocat.png" width="20">
+            </div>
+          </div>
+          <div class="Layout">
+            <div class="Layout-main border">
+                <nav class="UnderlineNav" aria-label="Foo bar">
+                    <div class="UnderlineNav-body">
+                      <a class="UnderlineNav-item" href="#url" aria-current="page">Home</a>
+                      <a class="UnderlineNav-item" href="contact.html">Contact</a>
+                      <a class="UnderlineNav-item" href="about.html">About</a>
+                      <a class="UnderlineNav-item" href="#url">Service</a>
+                    </div>
+                    <div class="UnderlineNav-actions">
+                      <a class="btn btn-sm">Button</a>
+                    </div>
+                  </nav>
+                  <div class="tengah">
+                    <div>
+                        <div class="col-6 mt-2 mb-2 mr-2">
+                            <div class="Box color-shadow-small">
+                              <div class="Box-row">
+                                <div class="one-fourth column">
+                                    <img class="width-fit color-bg-subtle" src="images/python1.jpeg" alt="width fitted octocat" />
+                                  </div>
+                                <h3 class="m-0">Python Programming </h3>
+                              </div>
+                              <div class="Box-row">
+                                <p class="mb-0 color-fg-muted">
+                                  Taxidermy live-edge mixtape, keytar tumeric locavore meh selvage deep v letterpress vexillologist lo-fi tousled
+                                  church-key thundercats. Brooklyn bicycle rights tousled, marfa actually.
+                                </p>
+                              </div>
+                              <div class="Box-row mt-6">
+                                <button type="button" name="Create an organization" class="btn btn-primary btn-block">
+                                  Selengkapnya
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                    <div>
+                        <div class="col-6 mt-2 mb-2">
+                            <div class="Box color-shadow-small">
+                              <div class="Box-row">
+                                <div class="one-fourth column">
+                                    <img class="width-fit color-bg-subtle" src="/images/java.jpg" alt="width fitted octocat" />
+                                  </div>
+                                <h3 class="m-0">Java Programming </h3>
+                              </div>
+                              <div class="Box-row">
+                                <p class="mb-0 color-fg-muted">
+                                  Taxidermy live-edge mixtape, keytar tumeric locavore meh selvage deep v letterpress vexillologist lo-fi tousled
+                                  church-key thundercats. Brooklyn bicycle rights tousled, marfa actually.
+                                </p>
+                              </div>
+                              <div class="Box-row mt-4">
+                                <button type="button" name="Create an organization" class="btn btn-primary btn-block">
+                                  Selengkapnya
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                  </div>
+
+            </div>
+          
+            <div class="Layout-sidebar">
+              <div class="one-fourth column mb-2">
+                  <img class="width-fit color-bg-subtle" src="/images/foto1.jpg" alt="width fitted octocat" />
+                </div>
+                <nav class="menu" aria-labelledby="menu-heading">
+                  <span class="menu-heading" id="menu-heading">Kopriyanto</span>
+                  <div >
+                    <details class="dropdown details-reset details-overlay">
+                      <summary class="men-1 btn btn-primary" aria-haspopup="true">
+                        Social Media
+                        <div class="dropdown-caret"></div>
+                      </summary>
+                  
+                      <ul class="dropdown-menu dropdown-menu-se">
+                        <li><a class="dropdown-item" href="#url">Instagram</a></li>
+                        <li><a class="dropdown-item" href="#url">Twitter</a></li>
+                        <li><a class="dropdown-item" href="#url">Facebook</a></li>
+                      </ul>
+                    </details>
+                  </div>
+                  <a class="menu-item" href="#url">Profile</a>
+                  <a class="menu-item" href="#url">Emails</a>
+                  <a class="menu-item" href="#url">Notifications</a>
+                </nav>
+          </div>
+          </div>
     </div>
-    <!-- End Navbar -->
-    <!-- Start Main -->
-    <main>
-        <!-- Start Text -->
-        <section id="text-side">
-            <div class="box-text">
-                <div class="head">
-                    <h1>Identification<br/>Your Skin</h1>
-                </div>
-                <div class="pel">
-                    <p>Setiap orang pasti memiliki permasalahan pada kulit wajah, namun sering kali seseorang salah mengidentifikasi jenis penyakit yang sedang dialami. Mari gunakan MoonSkin untuk membantumu mengidentifikasi permasalahan pada kulit wajah anda.</p>
-                </div>
-                <div class="tom">
-                    <!-- <button class="btn"><a href="{{url_for('about')}}">Pelajari</a></button> -->
-                    <button class="btn"><a href="about.html">Pelajari</a></button>
-                    <!-- <button class="btn"><a href="{{url_for('diagnosa')}}">Coba Sekarang</a></button> -->
-                    <button class="btn"><a href="diagnosa1.html">Coba Sekarang</a></button>
-                </div>
-            </div>
-        </section>
-        <!-- End Text -->
-        <!-- Start Image -->
-        <section id="img-side">
-            <img class="desktop-img" src="../static/images/desktop.jpg" alt="">
-            <img class="mobile-img" src="../static/images/desktop.jpg" alt="">
-        </section>
-        <!-- End Image -->
-    </main>
-    <!-- End Main -->
-  </body>
-  </html>
+</body>
+</html>
